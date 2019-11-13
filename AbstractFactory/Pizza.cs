@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 
 namespace AbstractFactory
 {
@@ -20,7 +19,7 @@ namespace AbstractFactory
       Console.WriteLine("Baking pizza at 350 for 20 minutes.");
     }
 
-    internal virtual void Cut()
+    internal void Cut()
     {
       Console.WriteLine("Cutting the pizza into diagonal slices.");
     }
